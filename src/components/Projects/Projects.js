@@ -29,7 +29,7 @@ function Projects() {
               description="A full-stack personal finance app built using MongoDB, Express.js, React, and Node.js. Allows users to track income and expenses, visualize spending trends, and manage budgets with real-time updates. Designed with responsive UI and integrated with JWT-based authentication and RESTful APIs for secure user management.
               "
               ghLink="https://github.com/Amritesh15/Expense_Tracker"
-              demoLink="https://expense-tracker-amriteshkuraria.vercel.app/"
+              demoLink="http://13.218.132.51/login"
             />
           </Col>
 
@@ -40,7 +40,7 @@ function Projects() {
               title=" ML-Powered Hypothesis Testing Dashboard"
               description="An interactive dashboard leveraging Random Forest Classifier and hyperparameter tuning to automate hypothesis testing over academic research data. Built using Python, Streamlit, and scikit-learn, it enables users to draw meaningful inferences from publication trends with visual insights and explainable AI."
               ghLink="https://github.com/Amritesh15/DIC-Project"
-              demoLink="https://blogs.soumya-jit.tech/"
+              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -53,7 +53,7 @@ function Projects() {
 
 "
               ghLink="https://github.com/Amritesh15/intro_to_ML"
-              demoLink="https://editor.soumya-jit.tech/"              
+              //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
