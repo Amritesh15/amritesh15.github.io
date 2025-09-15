@@ -26,7 +26,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Expense Tracker"
-              description="A full-stack personal finance app built using MongoDB, Express.js, React, and Node.js. Allows users to track income and expenses, visualize spending trends, and manage budgets with real-time updates. Designed with responsive UI and integrated with JWT-based authentication and RESTful APIs for secure user management.
+              description="A full-stack personal finance app built using MongoDB, Express.js, React, and Node.js. Allows users to track income and expenses, visualize spending trends, and manage budgets with real-time updates. 
+              Designed with responsive UI and integrated with JWT-based authentication and RESTful APIs for secure user management.
               "
               ghLink="https://github.com/Amritesh15/Expense_Tracker"
               demoLink="http://13.218.132.51/login"
@@ -61,8 +62,8 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Building a High-Performance Thread Scheduler in PintOS"
+              description="Implemented a high-performance thread scheduler in PintOS, focusing on optimizing context switching and CPU scheduling algorithms. The project involved in-depth knowledge of operating system concepts and hands-on experience with low-level programming in C."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
              
             />
@@ -72,9 +73,9 @@ function Projects() {
             <ProjectCard
               
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="16-Bit Single-Cycle CPU in Verilog"
+              description="Designed and implemented a 16-bit single-cycle CPU using Verilog. The CPU supports basic arithmetic and logic operations, and features a simple instruction set architecture. The project involved extensive testing and verification using simulation tools."
+              ghLink="https://github.com/rudraksh97/16BitProcessor.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
