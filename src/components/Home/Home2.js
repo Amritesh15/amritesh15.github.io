@@ -18,30 +18,39 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-  I'm a passionate Software Developer with hands-on experience in building scalable applications and cloud-based solutions.
+           <p className="home-about-body">
+  I'm a passionate <b className="purple">Software Developer</b> with hands-on experience in
+  building <b className="purple">scalable applications</b>, <b className="purple">microservices</b>, and 
+  <b className="purple"> cloud-based solutions</b> that deliver high performance and reliability.
   <br />
   <br />
-  I am fluent in technologies like
+  I am fluent in technologies like{" "}
   <i>
-    <b className="purple"> Python, Node.js, AWS, Supabase, and MongoDB</b>
+    <b className="purple"> Python, Node.js, TypeScript, AWS, Supabase, FastAPI, and MongoDB</b>
   </i>
+  , with strong foundations in <b className="purple">RESTful API design</b> and 
+  <b className="purple"> CI/CD automation</b>.
   <br />
   <br />
-  My areas of interest include&nbsp;
+  My areas of interest include{" "}
   <i>
     <b className="purple">Backend Development, Cloud Engineering, and Data Engineering</b>
   </i>
+  , with a focus on building <b className="purple">AI-driven</b> and 
+  <b className="purple"> data-intensive systems</b>.
   <br />
   <br />
-  I enjoy solving real-world problems and building products using
-  <b className="purple"> MERN stack</b> and
+  I love solving real-world problems and developing products using{" "}
+  <b className="purple">MERN stack</b> and{" "}
   <i>
-    <b className="purple"> other modern tools and frameworks</b>
+    <b className="purple">modern frameworks like FastAPI, LangGraph, and Docker</b>
   </i>
-  . I’m currently seeking full-time roles in
-  <b className="purple"> Software Development and Data Engineering</b> to contribute and grow with impactful teams.
+  . I’m currently seeking <b className="purple">full-time roles</b> in{" "}
+  <b className="purple">Software Development</b> or{" "}
+  <b className="purple">Cloud/Data Engineering</b> where I can contribute to 
+  <b className="purple"> AI-driven, scalable, and impactful solutions</b>.
 </p>
+
 
           </Col>
           <Col md={4} className="myAvtar">

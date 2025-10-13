@@ -57,17 +57,20 @@ function Projects() {
               //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Building a High-Performance Thread Scheduler in PintOS"
-              description="Implemented a high-performance thread scheduler in PintOS, focusing on optimizing context switching and CPU scheduling algorithms. The project involved in-depth knowledge of operating system concepts and hands-on experience with low-level programming in C."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="SmartMate: AI-Driven Personal Assistant"
+              description="Developed an NLP-powered WhatsApp assistant that automates calendar scheduling, weather updates, and note-taking.
+Built using FastAPI, LangGraph, Google Calendar API, and Ngrok, SmartMate leverages GPT-based intent recognition to understand user queries and perform contextual actions.
+Achieved a 90% reduction in manual effort by enabling seamless, intelligent task automation directly through chat."
+              ghLink="https://github.com/Amritesh15/SmartMate.git"
              
             />
           </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -80,14 +83,26 @@ function Projects() {
             />
           </Col>
 
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="TacoDB – Distributed NoSQL Database"
+              description="Designed and implemented a lightweight NoSQL database engine supporting CRUD operations, indexing, and query optimization.
+Built using Node.js, TypeScript, and Rust, with a focus on storage management, B+ tree indexing, and WAL-based durability.
+Integrated gRPC APIs and Dockerized microservices, achieving high throughput and low-latency queries for benchmark datasets."
+              ghLink="https://github.com/Amritesh15/dbms-project.git"
+             
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={leaf}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Building a High-Performance Thread Scheduler in PintOS"
+              description="Implemented a high-performance thread scheduler in PintOS, focusing on optimizing context switching and CPU scheduling algorithms. The project involved in-depth knowledge of operating system concepts and hands-on experience with low-level programming in C."
+              //ghLink="https://github.com/soumyajit4419/Plant_AI"
              
             />
           </Col>
