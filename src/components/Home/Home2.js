@@ -14,50 +14,41 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-           <p className="home-about-body">
-  I'm a passionate <b className="purple">Software Developer</b> with hands-on experience in
-  building <b className="purple">scalable applications</b>, <b className="purple">microservices</b>, and 
-  <b className="purple"> cloud-based solutions</b> that deliver high performance and reliability.
-  <br />
-  <br />
-  I am fluent in technologies like{" "}
-  <i>
-    <b className="purple"> Python, Node.js, TypeScript, AWS, Supabase, FastAPI, and MongoDB</b>
-  </i>
-  , with strong foundations in <b className="purple">RESTful API design</b> and 
-  <b className="purple"> CI/CD automation</b>.
-  <br />
-  <br />
-  My areas of interest include{" "}
-  <i>
-    <b className="purple">Backend Development, Cloud Engineering, and Data Engineering</b>
-  </i>
-  , with a focus on building <b className="purple">AI-driven</b> and 
-  <b className="purple"> data-intensive systems</b>.
-  <br />
-  <br />
-  I love solving real-world problems and developing products using{" "}
-  <b className="purple">MERN stack</b> and{" "}
-  <i>
-    <b className="purple">modern frameworks like FastAPI, LangGraph, and Docker</b>
-  </i>
-  . I’m currently seeking <b className="purple">full-time roles</b> in{" "}
-  <b className="purple">Software Development</b> or{" "}
-  <b className="purple">Cloud/Data Engineering</b> where I can contribute to 
-  <b className="purple"> AI-driven, scalable, and impactful solutions</b>.
-</p>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    LET ME <span className="purple"> INTRODUCE </span> MYSELF
+  </h1>
+  <p className="home-about-body">
+    I'm Amritesh, a Software Engineer with a strong focus on backend systems, cloud infrastructure, and AI powered applications.
+    I enjoy building products that are scalable, reliable, and solve real world problems.
+    <br />
+    <br />
+    I’ve worked across startups and enterprise environments, designing and developing distributed systems,
+    REST APIs, and LLM based features. My core stack includes{" "}
+    <i>
+      <b className="purple">Node.js, TypeScript, Python, FastAPI, AWS, Docker, SQL, NoSQL databases.</b>(including PostgreSQL, MongoDB, Supabase, and Firebase)
+    </i>.
+    I also have a solid grasp of data structures, system design, and performance optimization.
+    <br />
+    <br />
+    Lately, I’ve been deeply exploring{" "}
+    <i>
+      <b className="purple">Agentic AI and LLM driven workflows</b>
+    </i>{" "}
+    and building applications that combine AI with real time systems and cloud native architecture.
+    <br />
+    <br />
+    I’m currently looking for full time Software Engineering roles where I can contribute to building
+    impactful, scalable products at the intersection of backend, cloud, and AI.
+  </p>
+</Col>
 
+<Col md={4} className="myAvtar">
+  <Tilt>
+    <img src={myImg} className="img-fluid" alt="avatar" />
+  </Tilt>
+</Col>
 
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Video calling application"
+              description="Built a real time video calling web app that allows peer to peer audio video communication along with chat. Used WebRTC for low latency streaming and Socket.io for signaling. The backend was developed using Node.js and Express with REST APIs, Supabase handled authentication and session storage, and Stripe was integrated for subscriptions. Deployed on AWS with Docker and CI CD to ensure scalability and reliability."
+              ghLink="https://github.com/Amritesh15/Real-Time-Video-Call-App"
+              
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -31,6 +41,18 @@ function Projects() {
               "
               ghLink="https://github.com/Amritesh15/Expense_Tracker"
               demoLink="http://13.218.132.51/login"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="SmartMate: AI-Driven Personal Assistant"
+              description="Developed an NLP-powered WhatsApp assistant that automates calendar scheduling, weather updates, and note-taking.
+Built using FastAPI, LangGraph, Google Calendar API, and Ngrok, SmartMate leverages GPT-based intent recognition to understand user queries and perform contextual actions.
+Achieved a 90% reduction in manual effort by enabling seamless, intelligent task automation directly through chat."
+              ghLink="https://github.com/Amritesh15/SmartMate.git"
+             
             />
           </Col>
 
@@ -57,18 +79,7 @@ function Projects() {
               //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="SmartMate: AI-Driven Personal Assistant"
-              description="Developed an NLP-powered WhatsApp assistant that automates calendar scheduling, weather updates, and note-taking.
-Built using FastAPI, LangGraph, Google Calendar API, and Ngrok, SmartMate leverages GPT-based intent recognition to understand user queries and perform contextual actions.
-Achieved a 90% reduction in manual effort by enabling seamless, intelligent task automation directly through chat."
-              ghLink="https://github.com/Amritesh15/SmartMate.git"
-             
-            />
-          </Col>
+          
 
           
 
